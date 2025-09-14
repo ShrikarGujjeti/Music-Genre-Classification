@@ -1,0 +1,28 @@
+# Ignore temporary and generated files
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+*.npy
+*.npz
+*.pkl
+*.zip
+
+# Ignore spectrograms and audio datasets
+genres/
+__pycache__/
+*.pyc
+
+# Ignore model checkpoints and caches
+checkpoints/
+*.h5
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore build outputs and large binaries
+dist/
+build/
+*.exe
+*.pkg
